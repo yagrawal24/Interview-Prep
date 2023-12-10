@@ -1,0 +1,53 @@
+/* cameracomponent.css */
+
+.webcam-container {
+    position: relative;
+  }
+  
+  .webcam {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .custom-webcam {
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    height: 380px; /* Adjust this value as needed */
+  }
+  
+  
+  .cam-mic-button {
+    background-color: #87CEEB;
+    color: #000;
+    padding: 0; /* Remove padding */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: -60px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+    transition: background-color 0.3s;
+    position: fixed;
+    bottom: 5px;
+    right: 0;
+    background-image: url('ComponentImages/CameraON.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+  }
+  
+  .cam-mic-button:hover {
+    background-color: #87CEEB;
+  }
+  
+  .camera-off {
+    background-image: url('ComponentImages/CameraOFF.jpg');
+    background-color: #F2F2F2;
+  }
+  
+  .camera-off:hover {
+    background-color: #F2F2F2;
+  }
